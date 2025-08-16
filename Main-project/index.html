@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minios</title>
+    <!-- Google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container d-none">
+        <!-- Starting page -->
+        <div class="start-page" id="start-page">
+            <div class="profile">
+            </div>
+            <h1>MiniOS</h1>
+            <button type="button" id="start-btn">continue</button>
+        </div>
+
+        <!-- lock page -->
+         <div class="container-fluid lock-screen p-0 m-0" id="lock-screen-page">
+            <div class="lock-main-page">
+            <div class="user-icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <h2 class="my-3">Error Explorer</h2>
+            <input type="password" class="px-2" placeholder="Enter your password">
+            <button class="btn btn-primary mt-3 px-4 py-2" id="signIn-btn">Sign In</button>
+         </div>
+         </div>
+         
+    </div>
+
+    <div id="windo" class="window-container container-fluid p-0 m-0">
+        <div class="conatiner-fluid main-windo">
+            <a href="https://www.google.com" target="_blank"><img src="./assets/chrome.png" alt="chrome" loading="lazy"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="./assets/yt.png" alt="youtube" loading="lazy"></a>
+            <a href="#" target="_blank"><img src="./assets/recycle.png" alt="recycle" loading="lazy"></a>
+            <a href="#" target="_blank"><img src="./assets/file.png" alt="file explorer" loading="lazy"></a>
+            <a href="#" target="_blank"><img src="./assets/notepad.png" alt="notepad" loading="lazy"></a>
+            <a href="#" target="_blank"><img src="./assets/calculator.png" alt="calculator" loading="lazy"></a>
+
+        </div>
+        <div class="conatiner-fluid nav-con px-3">
+            <div class="nav-left">
+                <i class="fa-brands fa-windows"></i>
+                <i class="fa-solid fa-book"></i>
+                <i class="fa-brands fa-chrome"></i>
+            </div>
+            <div class="nav-right">
+                <i class="fa-solid fa-volume-high"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-battery-half"></i>
+                <span>3:11</span>
+            </div>
+        </div>
+    </div>
+    <!-- custom script -->
+     <script src="./script.js"></script>
+</body>
+</html>
