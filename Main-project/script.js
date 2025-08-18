@@ -5,3 +5,9 @@ startBtn.addEventListener('click', function(){
     startPage.style.display = 'none';
     lockScreenPage.style.display = 'block';
 })
+
+const frontPage = document.querySelector("#front-page");
+const signInBtn = document.querySelector("#signIn-btn");
+signInBtn.addEventListener('click', function(){
+    frontPage.style.display = 'none';
+})

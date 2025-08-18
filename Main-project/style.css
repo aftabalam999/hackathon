@@ -6,11 +6,6 @@
 :root {
   /* Light Theme Colors */
   --primary-color: #0066FF;
-  --secondary-color: #FF6B6B;
-  --accent-color: #4ECDC4;
-  --success-color: #51CF66;
-  --warning-color: #FFD43B;
-  --error-color: #FF6B6B;
 }
 body{
     width: 100%;
